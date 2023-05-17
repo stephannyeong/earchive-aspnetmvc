@@ -1,0 +1,250 @@
+﻿/*discord navigation bar color*/
+header {
+    background-color: #4a4fed;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    max-width: 100%;
+    /*overflow-x: hidden;*/
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+ul#menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+    ul#menu > li {
+        display: inline;
+        padding: 19px;
+    }
+
+        ul#menu > li:hover {
+            text-decoration: underline white;
+        }
+
+    ul#menu a {
+        color: white;
+        text-decoration: none;
+        font-family: gintoreg;
+        font-size: 10px;
+    }
+
+
+.btn_opendisc:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bgimg {
+    position: relative;
+}
+
+.bigtxt {
+    position: absolute;
+    top: 40px;
+    text-align: center;
+    font-family: gintobold;
+    font-size: 55px;
+    color: white;
+}
+
+.smalltxt {
+    position: absolute;
+    top: 180px;
+    text-align: center;
+    font-family: ginto;
+    font-size: 16px;
+    color: white;
+    line-height: 2;
+}
+
+.btn_download {
+    position: absolute;
+    background-color: white;
+    top: 62%;
+    right: 51%;
+    border-radius: 30px;
+    padding: 15px 50px;
+    font-size: 12px;
+    border: none;
+    font-family: gintoreg;
+}
+
+    .btn_download:hover {
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+
+.btn_open {
+    position: absolute;
+    background-color: #24272a;
+    top: 62%;
+    left: 50%;
+    border-radius: 30px;
+    padding: 16px 50px;
+    color: white;
+    font-size: 12px;
+    border: none;
+    font-family: gintoreg;
+}
+
+    .btn_open:hover {
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+
+/* Section 1 */
+.s1-grid {
+    display: flex;
+}
+
+#section1 {
+    display: grid;
+    grid-template-columns: 20% 30% 40% 10%;
+    grid-template-rows: 200px auto 200px;
+}
+
+.s1-img {
+    width: 50px;
+}
+
+.s1-desc h1 {
+    font-family: montheavy;
+    font-size: 40px;
+    margin-left: 153px;
+}
+
+.s1-desc h2 {
+    font-family: gintoreg;
+    font-size: 14px;
+    line-height: 2;
+    margin-left: 153px;
+    margin-top: 1px;
+}
+
+/* Section 2 */
+.s2-grid {
+    display: flex;
+}
+
+#section2 {
+    display: grid;
+    grid-template-columns: 1% 45% 45% 9%;
+}
+
+.s2-img {
+    width: 50px;
+    margin-left: 0px;
+}
+
+.s2-desc h1 {
+    font-family: montheavy;
+    font-size: 40px;
+    margin-left: 400px;
+}
+
+.s2-desc h2 {
+    font-family: gintoreg;
+    font-size: 14px;
+    line-height: 2;
+    margin-left: 400px;
+}
+
+/* Section 3 */
+
+.s3-grid {
+    display: flex;
+}
+
+#section3 {
+    display: grid;
+    grid-template-columns: 20% 30% 40% 10%;
+    grid-template-rows: 200px auto 200px;
+}
+
+.s3-img {
+    width: 50px;
+}
+
+.s3-desc h1 {
+    font-family: montheavy;
+    font-size: 40px;
+    margin-left: 153px;
+}
+
+.s3-desc h2 {
+    font-family: gintoreg;
+    font-size: 14px;
+    line-height: 2;
+    margin-left: 153px;
+    margin-top: 1px;
+}
+
+.s4-desc h1 {
+    font-family: gintobold;
+    text-align: center;
+    font-size: 40px;
+}
+
+.s4-desc h2 {
+    font-family: gintoreg;
+    text-align: center;
+    font-size: 14px;
+    line-height: 2;
+}
+
+#section4img {
+    object-position: center;
+}
+
+#banner2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bgimg2 {
+    position: relative;
+}
+
+.s5-txt {
+    position: absolute;
+    top: 0px;
+    text-align: center;
+    font-family: gintobold;
+    font-size: 25px;
+    color: black;
+}
+
+.btn_dl {
+    position: absolute;
+    background-color: #4a4fed;
+    top: 100px;
+    right: 42%;
+    border-radius: 30px;
+    padding: 15px 40px;
+    font-size: 16px;
+    border: none;
+    font-family: gintoreg;
+    color: white;
+}
+
+    .btn_dl:hover {
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    }
